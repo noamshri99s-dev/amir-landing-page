@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+node_modules
+upload-*.json
+mcp-args-*.json
+push-batch-*.json
+api-batch.json
+upload-to-github.mjs

@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AVIVI | Timeless Luxury Diamond Jewelry</title>
+    <!-- Preconnect to critical domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Preload critical font (Playfair for hero) -->
+    <link rel="preload" href="https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiuni_.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- Preload critical images -->
+    <link rel="preload" href="/images/hero-left.png" as="image">
+    <link rel="preload" href="/images/hero-right.png" as="image">
+    <link rel="preload" href="/images/product-1.png" as="image">
+    <link rel="preload" href="/images/product-2.png" as="image">
+    
+    <!-- Load fonts with swap to prevent FOIT -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CDN (consider switching to build for production) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        --primary-color: #16382b;
+        --primary-light: #1f4a3a;
+        --background: #e0d7d3;
+        --background-alt: #d4c9c4;
+        --text-primary: #16382b;
+        --text-secondary: #4a5c52;
+        --border-color: rgba(22, 56, 43, 0.1);
+        --apple-ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+        --apple-reveal: cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: var(--background);
+        color: var(--text-primary);
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+      }
+      
+      #root {
+        min-height: 100vh;
+        width: 100%;
+      }
+      h1, h2, h3, .font-serif {
+        font-family: 'Playfair Display', serif;
+        letter-spacing: -0.01em;
+      }
+      
+      /* Apple-style Motion - optimized */
+      .reveal {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.8s var(--apple-reveal), transform 0.8s var(--apple-reveal);
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      
+      .stagger-1 { transition-delay: 0.1s; }
+      .stagger-2 { transition-delay: 0.2s; }
+      .stagger-3 { transition-delay: 0.3s; }
+      .stagger-4 { transition-delay: 0.4s; }
+
+      .gold-text { color: var(--primary-color); }
+      .gold-bg { background-color: var(--primary-color); }
+      
+      /* Glow Effects */
+      .gold-glow {
+        text-shadow: 0 0 10px rgba(61, 40, 23, 0.3),
+                     0 0 20px rgba(61, 40, 23, 0.2),
+                     0 0 30px rgba(61, 40, 23, 0.1);
+      }
+      
+      .hero-title-glow {
+        text-shadow: 0 0 20px rgba(61, 40, 23, 0.15),
+                     0 0 40px rgba(61, 40, 23, 0.1),
+                     0 0 60px rgba(61, 40, 23, 0.05);
+      }
+      
+      .button-glow {
+        box-shadow: 0 0 20px rgba(61, 40, 23, 0.2),
+                    0 0 40px rgba(61, 40, 23, 0.15),
+                    0 0 60px rgba(61, 40, 23, 0.1);
+      }
+      
+      .button-glow:hover {
+        box-shadow: 0 0 30px rgba(61, 40, 23, 0.4),
+                    0 0 60px rgba(61, 40, 23, 0.3),
+                    0 0 90px rgba(61, 40, 23, 0.2);
+      }
+      
+      .product-glow {
+        box-shadow: 0 0 20px rgba(61, 40, 23, 0.1),
+                    0 0 40px rgba(61, 40, 23, 0.05);
+        transition: box-shadow 0.3s ease;
+      }
+      
+      .product-glow:hover {
+        box-shadow: 0 0 30px rgba(61, 40, 23, 0.3),
+                    0 0 60px rgba(61, 40, 23, 0.2),
+                    0 0 90px rgba(61, 40, 23, 0.1);
+      }
+      
+      .section-glow {
+        box-shadow: inset 0 0 100px rgba(61, 40, 23, 0.03);
+      }
+      
+      /* Group hover glow effect */
+      .group:hover .group-hover-glow {
+        text-shadow: 0 0 10px rgba(61, 40, 23, 0.3),
+                     0 0 20px rgba(61, 40, 23, 0.2),
+                     0 0 30px rgba(61, 40, 23, 0.1);
+      }
+      
+      ::-webkit-scrollbar { width: 4px; }
+      ::-webkit-scrollbar-track { background: var(--background-alt); }
+      ::-webkit-scrollbar-thumb { background: var(--text-secondary); border-radius: 10px; }
+      ::-webkit-scrollbar-thumb:hover { background: var(--primary-color); }
+
+      .glass-card {
+        background: rgba(250, 248, 243, 0.6);
+        backdrop-filter: blur(20px);
+        border: 1px solid var(--border-color);
+      }
+
+      /* New Shadow & Glass Styles */
+      .shadow-soft-xl {
+        box-shadow: 0 25px 80px -20px rgba(61, 40, 23, 0.15);
+      }
+
+      .shadow-angled {
+        box-shadow: 25px 25px 70px rgba(61, 40, 23, 0.2),
+                    -2px -2px 15px rgba(255, 255, 255, 0.5);
+      }
+
+      .glass-panel {
+        background: rgba(250, 248, 243, 0.9);
+        border: 1px solid var(--border-color);
+      }
+      
+      /* Only enable backdrop-filter on devices that handle it well */
+      @supports (backdrop-filter: blur(8px)) {
+        @media (min-width: 768px) and (prefers-reduced-motion: no-preference) {
+          .glass-panel-blur {
+            background: rgba(250, 248, 243, 0.7);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+          }
+        }
+      }
+
+      .separation-border {
+        border: 1px solid var(--border-color);
+      }
+
+      /* Living background (insane but calm) */
+      :root {
+        --parallax-1: 0px;
+        --parallax-2: 0px;
+        --parallax-3: 0px;
+      }
+
+      .bg-motion {
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        pointer-events: none;
+        overflow: hidden;
+        background: var(--background);
+      }
+
+      .bg-layer {
+        position: absolute;
+        inset: -20%;
+        transform: translate3d(0, 0, 0);
+        contain: layout style paint;
+      }
+      
+      /* Pause animations when tab is not visible */
+      .bg-motion:not(:hover) .bg-layer {
+        animation-play-state: running;
+      }
+      
+      @media (prefers-reduced-motion: reduce) {
+        .bg-layer {
+          animation: none !important;
+        }
+      }
+
+      /* Soft animated gradient - simplified for performance */
+      .bg-gradient {
+        opacity: 0.08;
+        background-image:
+          radial-gradient(60% 60% at 20% 25%, rgba(61, 40, 23, 0.05), transparent 60%),
+          radial-gradient(60% 60% at 65% 85%, rgba(85, 107, 47, 0.04), transparent 62%);
+        background-size: 200% 200%;
+        animation: gradient-drift 180s linear infinite;
+      }
+
+      @keyframes gradient-drift {
+        0% { background-position: 0% 40%; }
+        50% { background-position: 100% 60%; }
+        100% { background-position: 0% 40%; }
+      }
+
+      /* Light field / beam texture - static for performance */
+      .bg-beams {
+        opacity: 0.03;
+        background-image:
+          repeating-linear-gradient(
+            118deg,
+            rgba(61, 40, 23, 0.02) 0px,
+            rgba(61, 40, 23, 0.02) 1px,
+            transparent 1px,
+            transparent 140px
+          );
+        mask-image: radial-gradient(60% 60% at 50% 40%, rgba(0,0,0,1), rgba(0,0,0,0));
+        -webkit-mask-image: radial-gradient(60% 60% at 50% 40%, rgba(0,0,0,1), rgba(0,0,0,0));
+        /* Removed animation - static is enough */
+      }
+
+      /* Grid shimmer - refined for subtlety */
+      .bg-grid {
+        opacity: 0.03;
+        background-image:
+          linear-gradient(rgba(61, 40, 23, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(61, 40, 23, 0.03) 1px, transparent 1px);
+        background-size: 120px 120px;
+        background-position: 0 0;
+        filter: blur(0.3px);
+        mask-image: radial-gradient(65% 65% at 50% 45%, rgba(0,0,0,1), rgba(0,0,0,0));
+        -webkit-mask-image: radial-gradient(65% 65% at 50% 45%, rgba(0,0,0,1), rgba(0,0,0,0));
+      }
+
+      .bg-grid::after {
+        content: "";
+        position: absolute;
+        inset: -20%;
+        background-image: linear-gradient(
+          105deg,
+          transparent 0%,
+          rgba(61, 40, 23, 0.05) 35%,
+          transparent 70%
+        );
+        background-size: 140% 140%;
+        mix-blend-mode: multiply;
+        opacity: 0.2;
+        animation: grid-shimmer 180s linear infinite;
+      }
+
+      @keyframes grid-shimmer {
+        0% { transform: translate3d(-10%, -10%, 0); }
+        100% { transform: translate3d(10%, 10%, 0); }
+      }
+
+      /* Particle effect - simplified static version */
+      .bg-particles {
+        opacity: 0.05;
+        background-image:
+          radial-gradient(circle at 15% 20%, rgba(61, 40, 23, 0.03) 0 1px, transparent 2px),
+          radial-gradient(circle at 55% 30%, rgba(85, 107, 47, 0.03) 0 1px, transparent 2px),
+          radial-gradient(circle at 75% 75%, rgba(61, 40, 23, 0.02) 0 1px, transparent 2px);
+        background-size: 700px 700px, 900px 900px, 800px 800px;
+        /* Static - no animation needed for subtle effect */
+      }
+
+      /* Slow parallax abstract shapes - refined for subtlety */
+      .bg-shapes {
+        position: absolute;
+        inset: 0;
+        opacity: 0.5;
+      }
+
+      .shape {
+        position: absolute;
+        border-radius: 999px;
+        filter: blur(40px);
+        mix-blend-mode: screen;
+        contain: layout style paint;
+      }
+
+      .shape.shape-1 { top: -10%; left: -12%; width: 520px; height: 520px; transform: translate3d(0, var(--parallax-1), 0); }
+      .shape.shape-2 { top: 18%; right: -16%; width: 680px; height: 680px; transform: translate3d(0, var(--parallax-2), 0); }
+      .shape.shape-3 { bottom: -18%; left: 18%; width: 760px; height: 760px; transform: translate3d(0, var(--parallax-3), 0); }
+
+      .shape > .shape-inner {
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        opacity: 0.06;
+      }
+
+      .shape-1 > .shape-inner {
+        background: radial-gradient(circle at 30% 30%, rgba(61, 40, 23, 0.15), transparent 60%);
+      }
+      .shape-2 > .shape-inner {
+        background: radial-gradient(circle at 65% 35%, rgba(85, 107, 47, 0.12), transparent 62%);
+      }
+      .shape-3 > .shape-inner {
+        background: radial-gradient(circle at 40% 60%, rgba(61, 40, 23, 0.12), transparent 65%);
+      }
+      
+      /* Shape animations only on desktop with motion preference */
+      @media (min-width: 768px) and (prefers-reduced-motion: no-preference) {
+        .shape-1 > .shape-inner {
+          animation: float-1 60s ease-in-out infinite alternate;
+        }
+        .shape-2 > .shape-inner {
+          animation: float-2 70s ease-in-out infinite alternate;
+        }
+        .shape-3 > .shape-inner {
+          animation: float-3 80s ease-in-out infinite alternate;
+        }
+      }
+
+      @keyframes float-1 { 0% { transform: translate3d(0, 0, 0); } 100% { transform: translate3d(15px, 10px, 0); } }
+      @keyframes float-2 { 0% { transform: translate3d(0, 0, 0); } 100% { transform: translate3d(-12px, 8px, 0); } }
+      @keyframes float-3 { 0% { transform: translate3d(0, 0, 0); } 100% { transform: translate3d(10px, -10px, 0); } }
+
+      /* Orb layer - static for performance */
+      .bg-layer.bg-orbs {
+        opacity: 0.02;
+        background-image:
+          radial-gradient(circle at 25% 30%, rgba(61, 40, 23, 0.05) 0%, transparent 50%),
+          radial-gradient(circle at 70% 60%, rgba(85, 107, 47, 0.04) 0%, transparent 50%);
+        background-size: 600px 600px, 800px 800px;
+        filter: blur(40px);
+        /* Static - no animation for performance */
+      }
+
+      /* Respect reduced motion */
+      @media (prefers-reduced-motion: reduce) {
+        .bg-gradient,
+        .bg-beams,
+        .bg-grid::after,
+        .bg-particles,
+        .bg-orbs,
+        .shape > .shape-inner {
+          animation: none !important;
+        }
+      }
+
+      /* Image reveal animation - optimized */
+      .img-reveal {
+        clip-path: inset(100% 0 0 0);
+        transition: clip-path 1s var(--apple-reveal);
+      }
+      .img-reveal.active {
+        clip-path: inset(0 0 0 0);
+      }
+      
+      /* Ornate Pattern Background */
+      .ornate-pattern-bg {
+        position: relative;
+      }
+      
+      .ornate-pattern-bg::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url('/images/ornate-pattern-bg.png');
+        background-repeat: repeat;
+        background-size: auto;
+        opacity: 0.15;
+        z-index: 0;
+        pointer-events: none;
+      }
+      
+      .ornate-pattern-bg > * {
+        position: relative;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,19 +1,11 @@
 import React, { useState } from 'react';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 import type { CatalogProduct } from '@/lib/catalog';
+import { cloudinaryUrl } from '@/lib/cloudinary';
 
 interface ProductCardProps {
   product: CatalogProduct;
   productLabel?: string;
-}
-
-/** Encode filename in path so Hebrew/special chars load correctly */
-function getImageSrc(imagePath: string): string {
-  const lastSlash = imagePath.lastIndexOf('/');
-  if (lastSlash === -1) return imagePath;
-  const dir = imagePath.slice(0, lastSlash + 1);
-  const filename = imagePath.slice(lastSlash + 1);
-  return dir + encodeURIComponent(filename);
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product, productLabel }) => {
@@ -36,7 +28,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, productLabel }) => {
       {/* Image container with variant carousel */}
       <div className="relative aspect-[4/5] bg-[#E8E0D5] rounded-lg shadow-soft-xl overflow-hidden mb-4">
         <img
-          src={getImageSrc(variant.image)}
+          src={cloudinaryUrl(variant.image)}
           alt={`${product.name} - ${variant.name}`}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           onError={(e) => {

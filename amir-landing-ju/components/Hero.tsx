@@ -30,7 +30,7 @@ const Hero = memo(function Hero() {
 
       <div className="container mx-auto px-8 relative z-0 md:z-10 text-center">
         <div className="reveal stagger-1">
-          {/* Full Logo - Add your complete logo image at /public/images/logo.png */}
+          {/* Full Logo */}
           <div className="mb-0 md:mb-2 lg:mb-4 flex justify-center">
             <div className="w-full max-w-md md:max-w-xl lg:max-w-2xl xl:max-w-3xl 2xl:max-w-4xl flex items-center justify-center overflow-hidden">
               <img 

@@ -1,19 +1,11 @@
 import React, { useState, useCallback } from 'react';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 import type { CatalogProduct } from '@/lib/catalog';
+import { cloudinaryUrl } from '@/lib/cloudinary';
 
 interface CatalogCarouselProps {
   products: CatalogProduct[];
   productLabel?: string; // e.g. "טבעת" for display name
-}
-
-/** Encode filename in path so Hebrew/special chars load correctly from public folder */
-function getImageSrc(imagePath: string): string {
-  const lastSlash = imagePath.lastIndexOf('/');
-  if (lastSlash === -1) return imagePath;
-  const dir = imagePath.slice(0, lastSlash + 1);
-  const filename = imagePath.slice(lastSlash + 1);
-  return dir + encodeURIComponent(filename);
 }
 
 const CatalogCarousel: React.FC<CatalogCarouselProps> = ({ products, productLabel }) => {
@@ -48,7 +40,7 @@ const CatalogCarousel: React.FC<CatalogCarouselProps> = ({ products, productLabe
       {/* Main image + product name */}
       <div className="relative aspect-[4/5] bg-[#E8E0D5] rounded-sm shadow-soft-xl product-glow overflow-hidden mb-8">
         <img
-          src={getImageSrc(variant.image)}
+          src={cloudinaryUrl(variant.image)}
           alt={`${product.name} - ${variant.name}`}
           className="w-full h-full object-cover"
           onError={(e) => {
@@ -108,7 +100,7 @@ const CatalogCarousel: React.FC<CatalogCarouselProps> = ({ products, productLabe
               aria-label={`גרסה ${v.name}`}
               aria-pressed={i === variantIndex}
             >
-              <img src={getImageSrc(v.image)} alt={v.name} className="w-full h-full object-cover" />
+              <img src={cloudinaryUrl(v.image)} alt={v.name} className="w-full h-full object-cover" />
             </button>
           ))}
         </div>

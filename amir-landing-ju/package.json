@@ -7,10 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "catalog:build": "node scripts/build-catalog.mjs"
+    "catalog:build": "node scripts/build-catalog.mjs",
+    "catalog:cloudinary": "node scripts/fetch-cloudinary-collection.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.90.1",
+    "cloudinary": "^2.9.0",
     "lucide-react": "^0.562.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",

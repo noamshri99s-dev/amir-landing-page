@@ -3,6 +3,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { sendSMS, checkBirthdays, sendBirthdayMessage, sendWelcomeMessage } from './sms.js';
 import { supabase } from './supabase.js';
+import { buildCatalogFromCloudinary } from './cloudinary-catalog.js';
 import * as cron from 'node-cron';
 
 dotenv.config();
@@ -20,6 +21,17 @@ app.use(express.json());
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok' });
+});
+
+// Catalog from Cloudinary API (products + variants by name/color)
+app.get('/api/catalog', async (req, res) => {
+  try {
+    const catalog = await buildCatalogFromCloudinary();
+    res.json(catalog);
+  } catch (error) {
+    console.error('Catalog API error:', error);
+    res.status(500).json({ error: 'Failed to load catalog from Cloudinary' });
+  }
 });
 
 // ============================================

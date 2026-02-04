@@ -6,15 +6,15 @@
       "variants": [
         {
           "name": "זהב אדום ",
-          "image": "/images/rings/5 אבני טיפה ו5 אבני מרקיזה.זהב אדום .PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/5 אבני טיפה ו5 אבני מרקיזה.זהב אדום "
         },
         {
           "name": "זהב",
-          "image": "/images/rings/5 אבני טיפה ו5 אבני מרקיזה.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/5 אבני טיפה ו5 אבני מרקיזה.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/5 אבני טיפה ו5 אבני מרקיזה.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/5 אבני טיפה ו5 אבני מרקיזה.כסף"
         }
       ]
     },
@@ -24,15 +24,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/אבן מרכזית עגולה.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/אבן מרכזית עגולה.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/אבן מרכזית עגולה.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/אבן מרכזית עגולה.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/אבן מרכזית עגולה.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/אבן מרכזית עגולה.כסף"
         }
       ]
     },
@@ -42,15 +42,15 @@
       "variants": [
         {
           "name": "זהב צהוב",
-          "image": "/images/rings/אובל עם 2 אבני טיפות בצדדים.זהב צהוב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/אובל עם 2 אבני טיפות בצדדים.זהב צהוב"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/אובל עם 2 אבני טיפות בצדדים.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/אובל עם 2 אבני טיפות בצדדים.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/אובל עם 2 אבני טיפות בצדדים.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/אובל עם 2 אבני טיפות בצדדים.כסף"
         }
       ]
     },
@@ -60,15 +60,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/אובל עם 2 אבנים עגולות.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/אובל עם 2 אבנים עגולות.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/אובל עם 2 אבנים עגולות.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/אובל עם 2 אבנים עגולות.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/אובל עם 2 אבנים עגולות.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/אובל עם 2 אבנים עגולות.כסף"
         }
       ]
     },
@@ -78,15 +78,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת 10 אבני אובל.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת 10 אבני אובל.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת 10 אבני אובל.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת 10 אבני אובל.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת 10 אבני אובל.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת 10 אבני אובל.כסף"
         }
       ]
     },
@@ -96,15 +96,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת 10 אבני טיפות.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת 10 אבני טיפות.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת 10 אבני טיפות.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת 10 אבני טיפות.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת 10 אבני טיפות.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת 10 אבני טיפות.כסף"
         }
       ]
     },
@@ -114,15 +114,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת אבן עגולה.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת אבן עגולה.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת אבן עגולה.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת אבן עגולה.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת אבן עגולה.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת אבן עגולה.כסף"
         }
       ]
     },
@@ -132,15 +132,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת אובל עם אבני מרקיזה בצדדים.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת אובל עם אבני מרקיזה בצדדים.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת אובל עם אבני מרקיזה בצדדים.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת אובל עם אבני מרקיזה בצדדים.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת אובל עם אבני מרקיזה בצדדים.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת אובל עם אבני מרקיזה בצדדים.כסף"
         }
       ]
     },
@@ -150,15 +150,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת אובל עם אבנים בצדדים.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת אובל עם אבנים בצדדים.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת אובל עם אבנים בצדדים.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת אובל עם אבנים בצדדים.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת אובל עם אבנים בצדדים.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת אובל עם אבנים בצדדים.כסף"
         }
       ]
     },
@@ -168,15 +168,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת השלמה 7 אבנים.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת השלמה 7 אבנים.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת השלמה 7 אבנים.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת השלמה 7 אבנים.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת השלמה 7 אבנים.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת השלמה 7 אבנים.כסף"
         }
       ]
     },
@@ -186,11 +186,11 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת השלמה. טבעת משובצת אבנים.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת השלמה. טבעת משובצת אבנים.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת השלמה. טבעת משובצת אבנים.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת השלמה. טבעת משובצת אבנים.זהב"
         }
       ]
     },
@@ -200,7 +200,7 @@
       "variants": [
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת השלמה: טבעת משובצת אבנים.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת השלמה: טבעת משובצת אבנים.כסף"
         }
       ]
     },
@@ -210,15 +210,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת טיפות ומרקיזות.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת טיפות ומרקיזות.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת טיפות ומרקיזות.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת טיפות ומרקיזות.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת טיפות ומרקיזות.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת טיפות ומרקיזות.כסף"
         }
       ]
     },
@@ -228,15 +228,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת טיפות עם אבנים עגולות.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת טיפות עם אבנים עגולות.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת טיפות עם אבנים עגולות.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת טיפות עם אבנים עגולות.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת טיפות עם אבנים עגולות.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת טיפות עם אבנים עגולות.כסף"
         }
       ]
     },
@@ -246,15 +246,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת טיפות.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת טיפות.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת טיפות.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת טיפות.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת טיפות.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת טיפות.כסף"
         }
       ]
     },
@@ -264,15 +264,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת עם חיתוכי פנטזי.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת עם חיתוכי פנטזי.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת עם חיתוכי פנטזי.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת עם חיתוכי פנטזי.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת עם חיתוכי פנטזי.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת עם חיתוכי פנטזי.כסף"
         }
       ]
     },
@@ -282,15 +282,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/טבעת צורת לב עם 3 אבני עיגול.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת צורת לב עם 3 אבני עיגול.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/טבעת צורת לב עם 3 אבני עיגול.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת צורת לב עם 3 אבני עיגול.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/טבעת צורת לב עם 3 אבני עיגול.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/טבעת צורת לב עם 3 אבני עיגול.כסף"
         }
       ]
     },
@@ -300,15 +300,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/rings/סוליטר טיפה.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/סוליטר טיפה.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/rings/סוליטר טיפה.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/סוליטר טיפה.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/rings/סוליטר טיפה.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/rings/סוליטר טיפה.כסף"
         }
       ]
     }
@@ -322,15 +322,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/necklaces/שרשרת 5 אבנים עגולות.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת 5 אבנים עגולות.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/necklaces/שרשרת 5 אבנים עגולות.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת 5 אבנים עגולות.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/necklaces/שרשרת 5 אבנים עגולות.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת 5 אבנים עגולות.כסף"
         }
       ]
     },
@@ -340,15 +340,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/necklaces/שרשרת טיפות.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת טיפות.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/necklaces/שרשרת טיפות.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת טיפות.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/necklaces/שרשרת טיפות.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת טיפות.כסף"
         }
       ]
     },
@@ -358,7 +358,7 @@
       "variants": [
         {
           "name": "כסף",
-          "image": "/images/necklaces/שרשרת טניס.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת טניס.כסף"
         }
       ]
     },
@@ -368,15 +368,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/necklaces/שרשרת סוליטר אובל.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר אובל.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/necklaces/שרשרת סוליטר אובל.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר אובל.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/necklaces/שרשרת סוליטר אובל.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר אובל.כסף"
         }
       ]
     },
@@ -386,15 +386,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/necklaces/שרשרת סוליטר אמרלד.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר אמרלד.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/necklaces/שרשרת סוליטר אמרלד.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר אמרלד.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/necklaces/שרשרת סוליטר אמרלד.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר אמרלד.כסף"
         }
       ]
     },
@@ -404,15 +404,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/necklaces/שרשרת סוליטר טיפה.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר טיפה.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/necklaces/שרשרת סוליטר טיפה.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר טיפה.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/necklaces/שרשרת סוליטר טיפה.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר טיפה.כסף"
         }
       ]
     },
@@ -422,15 +422,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/necklaces/שרשרת סוליטר לב.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר לב.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/necklaces/שרשרת סוליטר לב.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר לב.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/necklaces/שרשרת סוליטר לב.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר לב.כסף"
         }
       ]
     },
@@ -440,15 +440,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/necklaces/שרשרת סוליטר מרקיזה.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר מרקיזה.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/necklaces/שרשרת סוליטר מרקיזה.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר מרקיזה.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/necklaces/שרשרת סוליטר מרקיזה.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר מרקיזה.כסף"
         }
       ]
     },
@@ -458,15 +458,15 @@
       "variants": [
         {
           "name": "זהב אדום",
-          "image": "/images/necklaces/שרשרת סוליטר עגול.זהב אדום.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר עגול.זהב אדום"
         },
         {
           "name": "זהב",
-          "image": "/images/necklaces/שרשרת סוליטר עגול.זהב.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר עגול.זהב"
         },
         {
           "name": "כסף",
-          "image": "/images/necklaces/שרשרת סוליטר עגול.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת סוליטר עגול.כסף"
         }
       ]
     },
@@ -476,7 +476,7 @@
       "variants": [
         {
           "name": "כסף",
-          "image": "/images/necklaces/שרשרת פנטזי.כסף.PNG"
+          "image": "https://res.cloudinary.com/de937ijky/image/upload/f_auto,q_auto/necklaces/שרשרת פנטזי.כסף"
         }
       ]
     }
